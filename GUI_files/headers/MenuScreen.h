@@ -23,6 +23,7 @@ public:
 	// override destructor
 	virtual ~MenuScreen();
 
+
 	// method to update, returns an Action struct, takes in the input as parameter
 	Action update(SDL_Event* event);
 
